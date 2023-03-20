@@ -276,7 +276,6 @@ header .navbar-brand span {
 .how-we-do-it-2 {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: var(--background-color);
 }
 .how-we-do-it-2 .wrapper {
   display: -webkit-box;
