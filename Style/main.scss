@@ -364,65 +364,6 @@ header {
 .services-2 {
   background-color: var(--background-color2);
 }
-
-.founders,
-.founders-2,
-.founders-3 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    @include max("desktop") {
-      flex-direction: column;
-    }
-    .image {
-      @include max("desktop") {
-        margin: auto;
-      }
-      img {
-        @include max("desktop") {
-          width: 100%;
-          margin: auto;
-        }
-      }
-    }
-    .text {
-      p {
-        font-size: 21px;
-        color: var(--main-color);
-        line-height: 1.55;
-        margin-bottom: 25px;
-        strong {
-        }
-      }
-    }
-  }
-  p {
-    font-size: 21px;
-    color: var(--main-color);
-    line-height: 1.55;
-    margin-bottom: 25px;
-  }
-}
-
-.founders-2,
-.founders-3 {
-  .wrapper {
-    .text {
-      p {
-        font-size: 21px;
-        color: var(--main-color);
-        line-height: 1.7;
-        margin-bottom: 30px;
-        margin-top: 30px;
-      }
-    }
-  }
-}
-
 .training-services {
   padding-top: 50px;
   padding-bottom: 50px;
